@@ -1,0 +1,2 @@
+# FlexibleHeightCellDemo
+模仿微信朋友圈的cell自适应高度布局
