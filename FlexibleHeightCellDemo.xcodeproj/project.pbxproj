@@ -10,7 +10,6 @@
 		470303261C322D4900A624BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 470303251C322D4900A624BF /* main.m */; };
 		4703032F1C322D4900A624BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4703032D1C322D4900A624BF /* Main.storyboard */; };
 		470303311C322D4900A624BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 470303301C322D4900A624BF /* Assets.xcassets */; };
-		470303341C322D4900A624BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 470303321C322D4900A624BF /* LaunchScreen.storyboard */; };
 		4703033F1C322D4900A624BF /* FlexibleHeightCellDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4703033E1C322D4900A624BF /* FlexibleHeightCellDemoTests.m */; };
 		4703034A1C322D4900A624BF /* FlexibleHeightCellDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 470303491C322D4900A624BF /* FlexibleHeightCellDemoUITests.m */; };
 		470567911C32BF82003E828A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4705677B1C32BF82003E828A /* AppDelegate.m */; };
@@ -49,7 +48,6 @@
 		470303251C322D4900A624BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4703032E1C322D4900A624BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		470303301C322D4900A624BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		470303331C322D4900A624BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		470303351C322D4900A624BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4703033A1C322D4900A624BF /* FlexibleHeightCellDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexibleHeightCellDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4703033E1C322D4900A624BF /* FlexibleHeightCellDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlexibleHeightCellDemoTests.m; sourceTree = "<group>"; };
@@ -153,7 +151,6 @@
 			children = (
 				4703032D1C322D4900A624BF /* Main.storyboard */,
 				470303301C322D4900A624BF /* Assets.xcassets */,
-				470303321C322D4900A624BF /* LaunchScreen.storyboard */,
 				470303351C322D4900A624BF /* Info.plist */,
 				470303251C322D4900A624BF /* main.m */,
 			);
@@ -344,7 +341,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				470567951C32BF82003E828A /* LifeModelData in Resources */,
-				470303341C322D4900A624BF /* LaunchScreen.storyboard in Resources */,
 				470303311C322D4900A624BF /* Assets.xcassets in Resources */,
 				4703032F1C322D4900A624BF /* Main.storyboard in Resources */,
 				470567981C32BF82003E828A /* FlexibleHeightCell.xib in Resources */,
@@ -473,14 +469,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		470303321C322D4900A624BF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				470303331C322D4900A624BF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -569,6 +557,7 @@
 			baseConfigurationReference = 6A4BCDDEB127EC5609A26D79 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = FlexibleHeightCellDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -582,6 +571,7 @@
 			baseConfigurationReference = C1A404CCF88056D4BFABB899 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = FlexibleHeightCellDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

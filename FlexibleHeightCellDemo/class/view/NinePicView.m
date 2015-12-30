@@ -87,13 +87,16 @@ const CGFloat kPicPadding = 4;       // 图片间距
     CGFloat maxY = 0;       // 视图填充完毕后最大的y值
     NSInteger indexX = 0;
     NSInteger indexY = 0;
+    CGFloat maxPicWidth = (_maxViewWidth-2*kPicPadding)/3;
+    CGFloat picWidth = kPicWidth>maxPicWidth ? maxPicWidth : kPicWidth;
+    CGFloat picHeight = picWidth;
     for (int i=0; i<_picArr.count; i++) {
         UIImageView *imgView = self.picViewArr[i];
         indexX = i%3;
         indexY = i/3;
-        CGFloat picX = (kPicWidth+kPicPadding)*indexX;
-        CGFloat picY = (kPicHeight+kPicPadding)*indexY;
-        imgView.frame = CGRectMake(picX, picY, kPicWidth, kPicHeight);
+        CGFloat picX = (picWidth+kPicPadding)*indexX;
+        CGFloat picY = (picHeight+kPicPadding)*indexY;
+        imgView.frame = CGRectMake(picX, picY, picWidth, picHeight);
         
         maxY = CGRectGetMaxY(imgView.frame);
     }

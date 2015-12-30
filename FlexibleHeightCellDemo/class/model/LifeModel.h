@@ -25,7 +25,7 @@
 // 是否有声音
 @property (nonatomic, assign) BOOL sound;
 // 评论列表
-@property (nonatomic, strong) NSArray<CommentModel *> *commentArr;
+@property (nonatomic, strong) NSArray *commentArr;
 
 + (NSArray *)fakeLifeModelArr;
 
