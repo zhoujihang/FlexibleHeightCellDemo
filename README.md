@@ -1,2 +1,5 @@
 # FlexibleHeightCellDemo
-模仿微信朋友圈的cell自适应高度布局
+
+cell根据内容自适应高度布局 xib＋autolayout
+
+![](cell自适应高度.gif)
