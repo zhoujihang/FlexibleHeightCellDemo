@@ -11,7 +11,7 @@
 
 #import "UIColor+Extension.h"
 
-const NSInteger kMaxCommentCount = 20;     // 最多X条评论
+static const NSInteger kMaxCommentCount = 20;     // 最多X条评论
 
 @interface CommentView()
 

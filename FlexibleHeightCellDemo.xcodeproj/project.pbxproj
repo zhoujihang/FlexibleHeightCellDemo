@@ -15,7 +15,6 @@
 		470567921C32BF82003E828A /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4705677E1C32BF82003E828A /* NSString+Extension.m */; };
 		470567931C32BF82003E828A /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 470567801C32BF82003E828A /* UIColor+Extension.m */; };
 		470567941C32BF82003E828A /* LifeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 470567831C32BF82003E828A /* LifeModel.m */; };
-		470567951C32BF82003E828A /* LifeModelData in Resources */ = {isa = PBXBuildFile; fileRef = 470567841C32BF82003E828A /* LifeModelData */; };
 		470567961C32BF82003E828A /* CommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 470567871C32BF82003E828A /* CommentView.m */; };
 		470567971C32BF82003E828A /* FlexibleHeightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 470567891C32BF82003E828A /* FlexibleHeightCell.m */; };
 		470567981C32BF82003E828A /* FlexibleHeightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4705678A1C32BF82003E828A /* FlexibleHeightCell.xib */; };
@@ -23,6 +22,7 @@
 		4705679A1C32BF82003E828A /* SingleCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4705678E1C32BF82003E828A /* SingleCommentView.m */; };
 		4705679B1C32BF82003E828A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 470567901C32BF82003E828A /* ViewController.m */; };
 		4722564E1C338F0E001C7F39 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4722564C1C338F0E001C7F39 /* Launch Screen.xib */; };
+		4782B0271D083CD300905F94 /* Life.json in Resources */ = {isa = PBXBuildFile; fileRef = 4782B0261D083CD300905F94 /* Life.json */; };
 		E3EC18EDD4F88E5067EEBA97 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC1188A4B9661D24788F097 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -55,7 +55,6 @@
 		470567801C32BF82003E828A /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
 		470567821C32BF82003E828A /* LifeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LifeModel.h; sourceTree = "<group>"; };
 		470567831C32BF82003E828A /* LifeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LifeModel.m; sourceTree = "<group>"; };
-		470567841C32BF82003E828A /* LifeModelData */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LifeModelData; sourceTree = "<group>"; };
 		470567861C32BF82003E828A /* CommentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentView.h; sourceTree = "<group>"; };
 		470567871C32BF82003E828A /* CommentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentView.m; sourceTree = "<group>"; };
 		470567881C32BF82003E828A /* FlexibleHeightCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexibleHeightCell.h; sourceTree = "<group>"; };
@@ -68,6 +67,7 @@
 		4705678F1C32BF82003E828A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		470567901C32BF82003E828A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4722564D1C338F0E001C7F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Base.lproj/Launch Screen.xib"; sourceTree = "<group>"; };
+		4782B0261D083CD300905F94 /* Life.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Life.json; sourceTree = "<group>"; };
 		5FC1188A4B9661D24788F097 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A4BCDDEB127EC5609A26D79 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C1A404CCF88056D4BFABB899 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +139,7 @@
 				470303301C322D4900A624BF /* Assets.xcassets */,
 				470303351C322D4900A624BF /* Info.plist */,
 				470303251C322D4900A624BF /* main.m */,
+				4782B0261D083CD300905F94 /* Life.json */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -191,7 +192,6 @@
 			children = (
 				470567821C32BF82003E828A /* LifeModel.h */,
 				470567831C32BF82003E828A /* LifeModel.m */,
-				470567841C32BF82003E828A /* LifeModelData */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -303,9 +303,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				470567951C32BF82003E828A /* LifeModelData in Resources */,
 				470303311C322D4900A624BF /* Assets.xcassets in Resources */,
 				4703032F1C322D4900A624BF /* Main.storyboard in Resources */,
+				4782B0271D083CD300905F94 /* Life.json in Resources */,
 				470567981C32BF82003E828A /* FlexibleHeightCell.xib in Resources */,
 				4722564E1C338F0E001C7F39 /* Launch Screen.xib in Resources */,
 			);
@@ -463,6 +463,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "3075f0ee-e259-4fa9-8cc7-cd357ecaece3";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -499,6 +500,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "3075f0ee-e259-4fa9-8cc7-cd357ecaece3";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

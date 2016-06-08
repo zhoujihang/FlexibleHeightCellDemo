@@ -37,7 +37,7 @@
 }
 // 创建视图控件
 - (void)setUpViews{
-    self.navigationItem.title = @"猴王的说说";
+    self.navigationItem.title = @"林思意";
     UITableView *tableView = [[UITableView alloc]init];
     tableView.delegate = self;
     tableView.dataSource = self;

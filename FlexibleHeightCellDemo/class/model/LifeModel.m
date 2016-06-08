@@ -15,7 +15,7 @@
 }
 
 + (NSArray *)fakeLifeModelArr{
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"LifeModelData" ofType:@""];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"Life.json" ofType:@""];
     NSString *jsonStr = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:NULL];
     
     NSArray *arr = [LifeModel objectArrayWithKeyValuesArray:jsonStr];

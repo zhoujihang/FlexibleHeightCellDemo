@@ -8,9 +8,9 @@
 
 #import "NinePicView.h"
 #import <SDWebImage/UIImageView+WebCache.h>
-const CGFloat kPicWidth = 90;        // 图片宽度
-const CGFloat kPicHeight = 90;        // 图片高度
-const CGFloat kPicPadding = 4;       // 图片间距
+static const CGFloat kPicWidth = 90;        // 图片宽度
+static const CGFloat kPicHeight = 90;        // 图片高度
+static const CGFloat kPicPadding = 4;       // 图片间距
 
 @interface NinePicView()
 

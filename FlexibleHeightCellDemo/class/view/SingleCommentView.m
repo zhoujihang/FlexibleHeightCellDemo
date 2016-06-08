@@ -10,8 +10,8 @@
 #import "NSString+Extension.h"
 #import "UIColor+Extension.h"
 
-const CGFloat kCommentLabelTopBottomPadding = 8;        // 评论文字距离视图上下的距离
-const CGFloat kCommentLabelLeftRightPadding = 8;        // 左右边距
+static const CGFloat kCommentLabelTopBottomPadding = 8;     // 文字距离视图上下的距离
+static const CGFloat kCommentLabelLeftRightPadding = 8;     // 左右边距
 @interface SingleCommentView()
 // 评论
 @property (nonatomic, weak) UILabel *commentLabel;

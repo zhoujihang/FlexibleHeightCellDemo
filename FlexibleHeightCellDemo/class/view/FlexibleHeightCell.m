@@ -147,6 +147,7 @@ const CGFloat kPadding_8 = 8.0;      // 控件上下间距
 
 // 获得cell的高度
 - (CGFloat)cellHeight{
+    // 使用xib很容易报约束冲突，若是纯代码使用 intrinsicContentSize 方法布局则不用写 10000 这种奇怪的数字了。。。
     self.contentView.bounds = CGRectMake(0, 0, 10000, 10000);
     [self.contentView updateConstraintsIfNeeded];
     [self.contentView layoutIfNeeded];
@@ -154,6 +155,7 @@ const CGFloat kPadding_8 = 8.0;      // 控件上下间距
     CGFloat height = [self.contentView systemLayoutSizeFittingSize:UILayoutFittingCompressedSize].height;
     return height+1;
 }
+
 
 
 
